@@ -1,0 +1,170 @@
+.filtros {
+	background-color: rgb(206, 234, 250);
+	width: 200px;
+	height: 632px;
+	float: left;
+	text-align: center;
+	border: 1px cornflowerblue;
+	border-radius: 20px  20px 20px 20px;
+	margin: 6px 6px 6px 6px;
+	box-shadow: 0 0 5px 0 rgba(168, 168, 168, 0.5);
+}
+#conteudo {
+	width: 1023px;
+	height: 645px;
+}
+form, input {
+	text-align: left !important;
+}
+.camposAlinhados {
+	margin-left: 10px;
+	width: 180px;
+}
+.botao{
+	width: 60px !important;
+	float: right;
+	margin-right: 70px;
+	margin-top: 3px;
+	border-radius: 5px  5px 5px 5px;
+	box-shadow: 0 0 5px 0 rgba(168, 168, 168, 0.5);
+}
+.banner {
+	height: 150px;
+	width: 820;
+	float: right;
+	background-image: url(imgs/banner.jpg);
+}
+.resorts {
+	border: 0px;
+
+}
+.areaMenu a:link { 
+	color: white; 
+	background-color: rgb(0, 112, 192);
+}
+
+.areaMenu a:visited {
+	background-color: lightgray;
+	color: white;
+}
+
+.areaMenu a:hover {
+	background-color: orange;
+}
+
+.areaMenu a:active {
+	background-color: cyan;
+}
+.resort {
+	width: 281.31px;
+	height: 257.63px;
+	box-shadow: 0 0 5px 0 rgba(168, 168, 168, 0.5);
+	margin-bottom: 20px;
+	
+}
+#icones{
+	list-style: none;
+	padding: 0px;
+	line-height:22px;
+	margin: 0px;
+	float: left;
+	font-size: 14px;
+}
+#all{
+	width: 109px;
+	height: 74px;
+	float: right;
+	text-align: center;
+	border: dashed 0.8px #4a4a4a;
+	border-radius: 5px;
+	padding: 10px 1px 10px;
+	margin: 10px;
+}
+#ilha {
+
+	border-radius: 20px 0px 0px 20px;
+	background-image:url(imgs/resortprimeirapagina.jpg);
+	border: 1px;
+	float: left;
+}
+
+#curral {
+	border-radius: 20px  0px 0px 20px;
+	background-image:url(imgs/resortcurralprimeirapagina.jpg);
+	border: 1px;
+	float: left;
+
+}
+.quadrado{
+	width:300px;
+	height: 238px;
+	border: 1px;
+	float: left;
+	padding:10px;
+	line-height:20px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color:rgb(68, 66, 66)
+}
+	
+.diaria{
+	width: 150px;
+	height: 226px;
+	box-shadow: 0 0 5px 0 rgba(168, 168, 168, 0.5);
+	float: left;
+	border-radius: 0px  20px 20px 0px;
+	border: 1px;
+	background-color:rgb(252, 134, 24);
+	padding:16px;
+	color: white;
+	font-family:tahoma;
+	
+}
+.sp{
+	font-size: 12px;
+	font-family: Georgia;
+}
+.preco{
+	font-size: 20px;
+	font-family: tahoma;
+	color: white;
+	padding: 10px 15px 12px 20px;
+	line-height: 96px;
+   
+	
+}
+.parcela{
+	font-size: 11px;
+	font-family: tahoma;
+	color: rgb(1, 68, 167);
+	padding: 10px; 
+}
+.button{
+	padding: 10px 9px;
+	text-align: center;
+	font-family: tahoma;
+	display: inline-block;
+	font-size: 17px;
+	margin: 20px 12px;
+	transition-duration: 0.4s;
+	cursor:pointer;
+	text-decoration: none;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 0 0 5px 0 rgba(168, 168, 168, 0.5);
+}
+.button1{
+	background-color: rgb(24, 190, 245); 
+	color: rgb(22, 6, 94);
+	border: 2px solid rgb(24, 190, 245);
+}
+a {text-decoration: none;}
+.button1:hover {
+	background-color: white;
+	color: rgb(22, 6, 94);
+  }
+a:visited {
+	background-color: lightgray;
+	color: rgb(22, 6, 94);
+}
+a:active {
+	background-color: cyan;
+}

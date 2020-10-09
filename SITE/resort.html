@@ -1,0 +1,132 @@
+<html>
+
+<head>
+	<title>Aventurisme: A sua melhor viagem aqui</title>
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+	<link rel='stylesheet' type='text/css' href='style.css'>
+	<link rel='stylesheet' type='text/css' href='resort.css'>
+</head>
+
+<body>
+	<div id='principal'>
+		<div id='logo'>
+			<a href='index.html'><img src='imgs/logo.jpeg' title='Aventurisme' width='200' height='150'></a>
+		</div>
+		<div class='banner'>
+
+		</div>
+		<div class='opcoes'><a href='pacotes.html'><span class='branco'>PACOTES</span></a></div>
+		<div class='opcoes'><a href="resort.html"><span class="branco">RESORTS</span></a></div>
+		<div class='opcoes'><a href='PontosTuristicos.html'><span class="branco">PONTOS TURÍSTICOS</span></a></div>
+		<div class='opcoes'><a href='hoteis.html'><span class="branco">HOTÉIS</span></a></div>
+		<div class='opcoes'><a href='passagens.html'><span class="branco">PASSAGENS</span></a></div>
+		<div class='opcoes'><a href='cruzeiro.html'><span class="branco">CRUZEIROS</span></a></div>
+		<div class='opcoes'><a href='dicas2.html'><span class="branco">DICAS</span></a></div>
+
+		<div id='conteudo'>
+			<div class='filtros'>
+				<p><strong>Filtros</strong></p>
+				<hr>
+				<p>Território</p>
+				<hr style="width: 180px;"> <!-- estilo em linha  -->
+				<form class="formsRadios">
+					<input type="radio" id="todosresorts" name="territorio" disabled value="Todos os resorts">
+					<label for="todosresorts">Todos os resorts</label><br>
+					<input type="radio" id="resortsnacionais" checked="true" name="territorio"
+						value="Resorts nacionais">
+					<label for="resortsnacionais">Resorts nacionais</label><br>
+				</form>
+				<hr>
+				<p>
+					Região
+				</p>
+				<hr style="width: 180px;">
+				<form>
+					<input type="checkbox" id="todasregioes" name="todasregioes" value="Todas as regiões">
+					<label for="todasregioes"> Todas as regiões</label><br>
+					<input type="checkbox" id="norte" name="norte" value="Norte">
+					<label for="norte">Norte</label><br>
+					<input type="checkbox" id="sul" name="sul" value="sul">
+					<label for="sul"> Sul</label>
+				</form>
+				<hr>
+				<p>
+					Regime de alimentação
+				</p>
+				<hr style="width: 180px;">
+				<form>
+					<input type="checkbox" id="todosregimes" name="todosregimes" value="Todos Regimes">
+					<label for="todosregimes"> Todos Regimes</label><br>
+					<input type="checkbox" id="allinclusive" name="allinclusive" value="All Inclusiove">
+					<label for="allinclusive">All Inclusive</label><br>
+					<input type="checkbox" id="cafedamanha" name="cafedamanha" value="Café da Manhã">
+					<label for="cafedamanha"> Café da Manhã</label><br>
+					<input type="checkbox" id="meiapensão" name="meiapensao" value="Meia Pensão">
+					<label for="meiapensao">Meia Pensão</label><br>
+					<input type="checkbox" id="pensaocompleta" name="pensaocompleta" value="Pensão Completa">
+					<label for="pensaocompleta">Pensão Completa</label><br>
+					<input type="checkbox" id="semalimentacao" name="semalimentacao" value=" Sem Alimentação">
+					<label for="semalimentacao">Sem Alimentação</label>
+				</form>
+				<hr>
+				<p>
+					<b>Área de busca</b>
+				</p>
+				<form action="#" method="get">
+					<input type="email">
+					<input type="submit" class="botao" value="Buscar">
+				</form>
+			</div>
+			<div class="resorts">
+				<p>2 resorts encontrados</p>
+
+				<div id="ilha" div class="resort"></div>
+				<div class="quadrado resort"><b>Resort da Ilha &#x2b50;&#x2b50;&#x2b50;&#x2b50;&#x2b50;</b><br>
+					<id class="sp">Ilha Bela | São Paulo</id>
+					<hr><br>
+					<ul id="icones">
+						<li><i class='fas fa-swimming-pool'></i> Piscina</li> 
+						<li><i class='fas fa-wifi'></i> Wi-fi grátis</li>
+						<li><i class='fas fa-utensils'></i> Restaurante</li>
+						<li><i class='fas fa-coffee'></i> Café da manhã<br></li>
+						<li><i class='fas fa-paw'></i> Aceita Animal</li>
+						<li><i class='fas fa-wheelchair'></i> Acessibilidade</li>
+						<li><i class='fas fa-cocktail'></i> Bar</li>
+					</ul>
+				</div>
+				<div class="diaria"><b>Diária<br>a partir de</b><br>
+					<b class="preco">R$ 280,00</b><br>
+				 	<b class="parcela"> Em até 10x sem juros</b>
+					<b><button class="button button1"><a target=_blank href="resortdailha.html">Mais detalhe</a></button></b>
+				</div>
+				<div id="curral" div class="resort"></div>
+				<div class="quadrado resort"><b>Resort do Curral & SPA &#x2b50;&#x2b50;&#x2b50;&#x2b50;</b><br>
+					<i class="sp">Ilha Bela | São Paulo</i>
+					<hr><br>
+					<ul id="icones">
+						<li><i class='fas fa-swimming-pool'></i> Piscina</li> 
+						<li><i class='fas fa-wifi'></i> Wi-fi grátis</li>
+						<li><i class='fas fa-utensils'></i> Restaurante</li>
+						<li><i class='fas fa-dumbbell'></i> Academia</li>
+						<li><i class='fas fa-paw'></i> Aceita Animal</li>
+						<li><i class='fas fa-spa'></i> SPA<br></li>
+					</ul>
+					<div  id="all"><i class='fas fa-concierge-bell' style='font-size:36px'></i><br>All inclusive</div>
+				</div>
+				<div class="diaria"><b>Diária<br>a partir de</b><br>
+					<b class="preco">R$ 350,00</b><br>
+					<b class="parcela">Em até 10x sem juros</b>
+					<b><button class="button button1"><a target=_blank href="resortdocurral.html">Mais detalhe</a></button></b>
+				</div>
+			</div>
+		</div>
+		<div class='rodape'><img src="imgs/rodapePagamento.png" width='200' height='60'></div>
+		<div class='rodape'><b>Em caso de dúvidas, entre em contato conosco !<br>
+			TEL: (11) 9999-9999<br>
+			Suporte: aventurisme@gmail.com</b></div>
+		<div class='rodape'>A empresa Aventurisme™ trabalha no ramo há 10 anos.<br>
+			Oferece viagens de São Paulo e Rio de Janeiro para Ilhabela</div>
+	</div>
+</body>
+
+</html>
