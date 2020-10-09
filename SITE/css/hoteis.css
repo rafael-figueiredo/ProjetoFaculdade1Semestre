@@ -1,0 +1,180 @@
+body{
+	background:url(../imgs/fundo.jpg);
+	background-size:cover;
+}
+div{
+	border: 1px solid black;
+}
+#principal{
+	width: 1024px;
+	height: 100%;
+	margin: 0px auto;
+	border: none;
+}
+#logo{
+	float:left;
+	
+}
+#banner{
+	height: 150px;
+	width: 829px;
+	text-align:center;
+	float:left;
+	background:url(../imgs/banner.jpg);
+}
+.areaMenu a{
+text-decoration:none;
+}
+.areaMenu a:link { 
+	color: white; 
+	background-color: rgb(0, 112, 192);
+}
+
+.areaMenu a:visited {
+	background-color: lightgray;
+	color: white;
+}
+
+.areaMenu a:hover {
+	background-color: orange;
+}
+
+.areaMenu a:active {
+	background-color: cyan;
+}
+.areaMenu{
+	float:left;
+	width:144.2px;
+	text-align:center;
+	height: 30px;
+	margin: 5px 0px 5px 0px;
+	font-size: 13px;
+	color: white;
+	font-family: georgian;
+}
+.linkMenu{
+	width:144.2px;
+	height:30px;
+	float:left;
+}
+#conteudo{
+	width:1021;
+	height:1050px;
+	clear:both;
+	text-align:center;
+	margin: 5px 0px 5px 0px;
+	background-color:#ADD8E6;
+	font-size: 20px;
+	font-family: Tahoma;
+}	
+#informacao{
+	font-size:15px;
+	text-align:center-left;
+	background-color:#F5BD42;
+	border:none;	
+}	
+#areaDeBusca{
+	font-size:15px;
+	border-radius:10px;
+	font-family: Tahoma;
+	font-weight: bold;
+	height:80px;
+	border-color:#F4A460;
+	margin:0px 20px 0px 20px;
+}
+#areaDeBusca a{
+	text-decoration:none;
+}
+#areaDeBusca a:visited { 
+				color:#8B008B;
+			}
+#buscarnome{
+	background-color:#4682B4;
+	color:#FFDEAD;
+}
+#limparDados{
+	background-color:#4682B4;
+	color:#FFDEAD;
+}
+input{
+	margin:10px;
+	width:130px;
+}
+#familiares{
+	width:40px;
+}
+#quartos{
+	width:40px;
+}
+#hotelImagens{
+	border-radius: 10px;
+}
+.legenda{
+	font-size:15px;
+}
+.diaria{
+	background-color:#4682B4;
+	margin-left:100px;
+	width:150px;
+	float:left;
+	border-radius: 10px;
+}	
+
+.hotel{
+	height:370;
+	width:338;
+	font-family: Tahoma;
+	font-size:16px;
+	float:left;
+	border:none;
+	margin-top:25px;
+}
+.star {
+	color: orange;
+	font-size:20px;
+}
+.pagamentos {
+	border-radius: 10px;
+	margin: 15px;
+	background-color: rgb(0,134,234);
+	border: none;
+}
+
+#conteudo2 {
+	height: 80px;
+	width: 243.5px;
+	margin: 5px 49.5px 0px 49.5px;
+	background-color: rgb(0,134,234);
+	border-radius: 10px;
+	border: none;
+}
+
+.contato {
+	color: white;
+	font-family: Tahoma;
+	font-size: 13px;
+}
+
+#conteudo3 {
+	height: 80px;
+	width: 243.5px;
+	margin: 5px 49.5px 0px 49.5px;
+	background-color: rgb(0,134,234);
+	border-radius: 10px;
+	border: none;
+}	
+
+.sobre {
+	color: white;
+	font-family: Tahoma;
+	font-size: 13px;
+	border: none;
+}
+
+.rodape {
+	width: 339.3px;
+	height: 90px;
+	float: left;
+	text-align: center;
+	background-color: rgb(0, 112, 192);
+}
